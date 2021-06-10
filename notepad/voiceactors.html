@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Comment can be added -->
+
+<html>
+
+<head>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="../images/webheader.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader2.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader3.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader4.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader5.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader6.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader7.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader8.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader9.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader10.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader11.jpg" width="1900" height="700">
+  </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+
+
+<style>
+.embolden{font-weight:bold;}
+ul{float:center;text-align:center;width:100%;padding:0;margin:0;list-style-type:none;}
+a{float:center;width:6em;text-decoration:none;color:white;background-color:purple;padding:0.8em 3em;border-right:1px solid white;}
+a:hover {background-color:#ff3300;}
+li {display:inline;}
+</style>
+<meta charset="UTF-8" />
+<title>Voice Actors</title>
+<link rel="stylesheet" type="text/css" href="externalcss.css">
+<h1>Dragon Ball</h1>
+<h2>Past / Present / Future </h2>
+
+<br></br>
+
+</head>
+<body>
+
+<ul>
+<li><a href="index.html">Home</a></th>
+<li><a href="history.html">History</a></th>
+<li><a href="movies.html">Movies</a></th>
+<li><a href="characters.html">Characters</a></th>
+<li><a href="voiceactors.html">Voice Actors</a></th>
+<li><a href="theories.html">Theories</a></th>
+<li><a href="favourite.html">Favourite</a></th>
+<li><a href="info.html">Info</a></th>
+</ul>
+
+<br></br>
+<p>Here are several voice actors from the Dragon Ball movie franchise, the first set are from the upcoming Dragon Ball Broly movie.</p>
+<p>Each character has a Japanese voice actor and an English voice actor.</p>
+<p>The main characters for this movie are Goku, Vegeta, Broly and Frieza.</p>
+<p>Goku is played by 'Masako Nozawa'(Japanese) and 'Sean Schemmel'(English).</p>
+<p>Then Vegeta is played by 'Ryo Horikawa'(Japanese) and 'Christopher Sabat'(English).</p>
+<p>The Legendary Super Saiyan Broly is played by 'Bin Shimada'(Japanese) and 'Vic Mignogna'(English).</p>
+<p>Frieza is played by'Ryusei Nakao'(Japanese) and 'Christopjer Ayres'(English).</p>
+
+
+ 
+
+
+
+
+
+</body>
+
+</html>

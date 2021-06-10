@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- Comment can be added -->
+
+<html>
+
+<head>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="../images/webheader.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader2.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader3.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader4.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader5.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader6.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader7.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader8.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader9.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader10.jpg" width="1900" height="700">
+  <img class="mySlides" src="../images/webheader11.jpg" width="1900" height="700">
+  </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+
+<style>
+.embolden{font-weight:bold;}
+ul{float:center;text-align:center;width:100%;padding:0;margin:0;list-style-type:none;}
+a{float:center;width:6em;text-decoration:none;color:white;background-color:purple;padding:0.8em 3em;border-right:1px solid white;}
+a:hover {background-color:#ff3300;}
+li {display:inline;}
+</style>
+<meta charset="UTF-8" />
+<title>History</title>
+<link rel="stylesheet" type="text/css" href="externalcss.css">
+<h1>Dragon Ball</h1>
+<h2>Past / Present / Future </h2>
+
+<br></br>
+
+<style>
+#history {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+#history td, #history th {
+	border:1px solid #ddd;
+	padding: 8px;
+}
+#history tr:nth-child(even)
+{background-color: #f2f2f2;}
+#history tr:hover {background-color: #ddd;}
+
+history th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+</style>
+
+</head>
+<body>
+
+<ul>
+<li><a href="index.html">Home</a></th>
+<li><a href="history.html">History</a></th>
+<li><a href="movies.html">Movies</a></th>
+<li><a href="characters.html">Characters</a></th>
+<li><a href="voiceactors.html">Voice Actors</a></th>
+<li><a href="theories.html">Theories</a></th>
+<li><a href="favourite.html">Favourite</a></th>
+<li><a href="info.html">Info</a></th>
+</ul>
+
+<br></br>
+<br></br>
+
+<table id="history">
+	<tr>
+		<th>Date</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<th>1984</th>
+		<th>The japanese media franchise Dragon Ball was created by Akira Toriyama.
+		It was inspired by the classic chinese novel Journey to the west.</th>
+	</tr>
+	<tr>
+		<th>1986</th>
+		<th>Dragon ball anime series was first released</th>
+	</tr>
+	<tr>
+		<th>1986</th>
+		<th>The first dragon ball movie was released "Dragon Ball: Curse of the Blood Rubies".</th>
+	</tr>
+</table>
+
+<br></br>
+  
+  
+</div>
+
+</body>
+
+</html>
